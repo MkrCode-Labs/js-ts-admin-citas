@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencias (Node / Gestores de paquetes)
+node_modules/
+.pnp
+.pnp.js
+
+# Entornos y variables sensibles
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Salidas de compilación y empaquetadores (Vite, Webpack, Parcel, TS)
+# NOTA: Actualmente 'dist/output.css' contiene los estilos generados de Tailwind.
+# Si en el futuro compilas con NPM/Vite/Tailwind CLI, descomenta 'dist/'
+# dist/
+build/
+out/
+.parcel-cache/
+.turbo/
+
+# Archivos de TypeScript y caché del compilador
+*.tsbuildinfo
+.tscache/
+
+# Archivos del sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Editores e IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
